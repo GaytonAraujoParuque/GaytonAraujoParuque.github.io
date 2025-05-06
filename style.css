@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "megatech";
+    src: url("../fontes/megatech/Megatech\ Alt\ Bold.otf");
+}
+@font-face {
+    font-family: 'iron';
+    src: url('../fontes/iron_shark/Iron\ Shark.otf');
+}
+@font-face {
+    font-family: "navy-cadet";
+    src: url("../fontes/navy_cadet/navycadet.ttf");
+}
+@font-face{
+    font-family: "bebas";
+    src: url("../fontes/bebas_neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: "moneywise";
+    src: url("../fontes/moneywise/Moneywise.ttf");
+}
