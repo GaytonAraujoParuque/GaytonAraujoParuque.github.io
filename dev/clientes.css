@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "megatech";
+    src: url("../fontes/megatech/Megatech\ Alt\ Bold.otf");
+}
+@font-face {
+    font-family: 'iron';
+    src: url('../fontes/iron_shark/Iron\ Shark.otf');
+}
+@font-face {
+    font-family: "navy-cadet";
+    src: url("../fontes/navy_cadet/navycadet.ttf");
+}
+@font-face{
+    font-family: "bebas";
+    src: url("../fontes/bebas_neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: "moneywise";
+    src: url("../fontes/moneywise/Moneywise.ttf");
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+
+header{
+    background-image: linear-gradient(to top, rgb(77, 22, 22), rgb(141, 28, 28),rgb(194, 22, 22),#ef0003, #ef0003, #ef0003);
+    margin-top: -30px;
+    height: 200px;
+}
+
+#main1{
+
+    overflow-y: auto;
+}
+
+#main2{
+    overflow-y: auto;
+}
+
+#divprincipal1{
+    margin-bottom: 0px;
+}
+
+#divprincipal2{
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(to top, black, rgb(87, 33, 33), rgb(134, 30, 30));
+    font-family: "bebas";
+    text-align: center;
+    margin-bottom: -10px;
+    position: fixed;
+    bottom: 0;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    background-image: url('../imagens/1\ \(2\).jpg');
+    border-radius: 50%;
+    margin: 30px auto 0px auto;
+    
+}
+
+#ft{
+    color: white;
+}
+
+#gt{
+    text-decoration: none;
+    color: red;
+}
+
+#titulo{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "iron";
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#temp{
+    padding-bottom: 10px;
+}
+
+.menu{
+    text-decoration: none;
+    color:white;
+    margin-left: 10px;
+    font-family: "navy-cadet";
+    font-size: 20px;
+}
+
+.menu:hover{
+
+    color: #ff0000;
+    border-bottom: 4px solid white;
+    border-radius: 5px;
+}
+
+.pacote{
+    margin: 10px auto;
+    background-color: green;
+    height: 70px;
+    max-width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+}
+
+#titpac{
+    color: #e71f1e;
+    text-align: center;
+    font-family: "megatech";
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.int{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.moedas{
+    display: inline-block;
+    margin-right: auto;
+}
+
+.megas{
+    font-family: "bebas";
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.seta{
+    display: inline-block;
+    background-image: url("../imagens/seta\ \(2\).png");
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.preco{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    font-family: "bebas";
+    font-size: 40px;
+}
+
+#escondido{
+    height: 70px;
+    width: 350px;
+}
+
+.irmas{
+    margin: 20px auto;
+}
+
+#dmae{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pacote2{
+    background-color: blueviolet;
+    margin: 10px auto;
+    height: 70px;
+    max-width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+}
